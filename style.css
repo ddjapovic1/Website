@@ -1,0 +1,94 @@
+.navbar{
+    font-family: 'Century Gothic';
+    font-size: 1rem;
+    color: wheat;
+}
+.jumbotron{
+    background-image: url('slike/jumb.JPG');
+    margin-top: 0%;
+    background-position: center;
+    background-attachment: fixed;
+    height: 30rem;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+
+.naslov{
+    font-family: 'Century Gothic';
+    text-align: center;
+    margin-top: 3%;
+}
+.text{
+   margin-left: 15rem;
+   margin-right: 15rem;
+   text-align: center;
+   font-family: 'Century Gothic';
+}
+.text1{
+    margin-top: 11%;
+    font-family: 'Century Gothic';
+   }
+
+.hr{
+    width:5%;
+    text-align:center;
+    background-color: rgb(8, 8, 8);
+}
+.img-fluid{
+border-radius: 5%;
+}
+
+
+.typewriter {
+    color: rgb(0, 0, 0);
+    font-family:'Century Gothic' ;
+    overflow: hidden; 
+    border-right: .15em solid rgb(0, 0, 0); 
+    white-space: nowrap; 
+    letter-spacing: .15em; 
+    animation: 
+      typing 5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(0, 0, 0) }
+  }
+
+  #myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 15px;
+    z-index: 99; 
+    border: none; 
+    outline: none;
+    background-color: rgb(202, 202, 202);
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px; 
+    font-size: 18px; 
+  }
+  
+  #myBtn:hover {
+    background-color: #555; 
+  }
+
+  .zoom{
+    width: 350px;
+    height: 350px;
+}
+.zoom:hover{
+    -moz-transform:scale(1.18);
+    -o-transform:scale(1.18);
+    -webkit-transform:scale(1.18);
+}
